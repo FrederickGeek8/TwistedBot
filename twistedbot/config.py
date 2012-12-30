@@ -2,15 +2,17 @@ import math
 import random
 import string
 
-DEBUG = False
+DEBUG = True
 USE_ENCRYPTION = False
 
 COMMANDER = "FrederickGeek8"
+PREFIX=COMMANDER[:2]
 
 def id_generator(size=6, chars=string.ascii_uppercase + string.digits):
     return ''.join(random.choice(chars) for x in range(size))
 
-USERNAME = id_generator()
+# USERNAME = id_generator()
+USERNAME = PREFIX+"_bot"+id_generator()
 SERVER_HOST = "127.0.0.1"
 SERVER_PORT = 25565
 
