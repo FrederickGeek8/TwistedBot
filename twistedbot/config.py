@@ -1,4 +1,3 @@
-
 import math
 
 DEBUG = False
@@ -10,7 +9,7 @@ USERNAME = "twistedbot"
 SERVER_HOST = "127.0.0.1"
 SERVER_PORT = 25565
 
-PROTOCOL_VERSION = 47  # minecraft version 1.4.1
+PROTOCOL_VERSION = 51  # minecraft version 1.4.1
 CONNECTION_MAX_DELAY = 5
 CONNECTION_INITIAL_DELAY = 0.1
 
