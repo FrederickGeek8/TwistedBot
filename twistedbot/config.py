@@ -1,4 +1,6 @@
 import math
+import random
+import string
 
 DEBUG = False
 USE_ENCRYPTION = False
