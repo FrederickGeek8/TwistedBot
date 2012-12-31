@@ -2,7 +2,7 @@ import math
 import random
 import string
 
-DEBUG = True
+DEBUG = False
 USE_ENCRYPTION = False
 
 COMMANDER = "FrederickGeek8"
